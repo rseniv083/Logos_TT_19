@@ -1,0 +1,244 @@
+@font-face {
+  font-family: "serif";
+  src: url(fonts/PTSerif-Regular.ttf);
+}
+
+.left_icons {
+  width: 8%;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+aside {
+  background-color: white;
+  width: 60%;
+  height: 52%;
+  border-radius: 20px;
+  padding: 22% 0 15% 10%;
+}
+
+.for_ic {
+  width: 200px;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 1;
+}
+
+.icons {
+  width: 40px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+p {
+  font-size: 15px;
+  font-family: "Chronica";
+}
+
+.box_menu {
+  width: 40px;
+  height: 35px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.uil-monitor {
+  width: 40px;
+  height: 35px;
+  background-color: rgb(0, 128, 255);
+  color: white;
+  border-radius: 10px;
+}
+
+.box_menu:hover {
+  background-color: rgb(0, 128, 255);
+  border-radius: 10px;
+  color: white;
+  width: 110px;
+  transition: all 0.3s, background-position 0s;
+}
+
+.big_box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "bahij-sultannahia";
+  color: black;
+  font-size: 25px;
+}
+/* --------------------------------------------- */
+
+.left_side {
+  width: 42%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name_acc {
+  width: 100%;
+  height: 17%;
+  padding: 0 0 0 4%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.img {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 40px;
+}
+
+.email {
+  background-color: tomato;
+  font-family: "serif";
+}
+
+.padlock {
+  background-color: rgb(0, 128, 255);
+  line-height: 0;
+}
+
+.text {
+  width: 80%;
+  height: 100%;
+  padding: 0 0 0 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 32px;
+}
+
+.top_pass_box {
+  width: 100%;
+  height: 20%;
+  padding: 0 0 0 4%;
+  display: flex;
+  align-items: center;
+}
+
+.change_pass {
+  width: 100%;
+  height: 80%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.form {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.right_side {
+  width: 55%;
+  height: 95%;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.university {
+  background-color: darkorange;
+  line-height: 0;
+}
+
+.middle_part_rs {
+  width: 90%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.bottom_part_rs {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 0 10px 0;
+}
+
+.bttm_rs {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  height: 50px;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px lightgrey;
+  padding: 5px 0 5px 15px;
+}
+
+.input_comp {
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px lightgrey;
+  padding: 5px 0 5px 15px;
+}
+
+.input_comp input {
+  outline: none;
+  border: none;
+}
+
+.input input {
+  outline: none;
+  border: none;
+}
+
+.input:focus-within {
+  border-color: rgb(0, 128, 255);
+}
+
+.input_comp:focus-within {
+  border-color: rgb(0, 128, 255);
+}
+
+#comp_adrs {
+  height: 80px;
+  border-radius: 10px;
+}
+
+button {
+  width: 150px;
+  height: 60px;
+  background-color: rgb(0, 128, 255);
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: none;
+  margin-left: auto;
+}

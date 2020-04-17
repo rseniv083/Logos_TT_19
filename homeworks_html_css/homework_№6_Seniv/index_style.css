@@ -1,0 +1,153 @@
+.left_icons {
+    width: 8%;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  aside {
+    background-color: white;
+    width: 60%;
+    height: 52%;
+    border-radius: 20px;
+    padding: 22% 0 15% 10%;
+  }
+  
+.for_ic {
+    width: 200px;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 1;
+}
+
+  .icons {
+    width: 40px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+  }
+
+  p {
+      font-size: 15px;
+      font-family: "Chronica";
+  }
+
+  .box_menu {
+      width: 40px;
+      height: 35px;
+      border-radius: 10px;
+      overflow: hidden;
+  }
+
+  .uil-folder {
+      width: 40px;
+      height: 35px;
+    background-color: rgb(0, 128, 255);
+    color: white;
+    border-radius: 10px;
+  }
+
+  .box_menu:hover {
+    background-color: rgb(0, 128, 255);
+    border-radius: 10px;
+    color: white;
+    width: 110px;
+    transition: all 0.3s, background-position 0s;
+  }
+  
+  .big_box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "bahij-sultannahia";
+    color: black;
+    font-size: 25px;
+  }
+  
+  .box_top {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .small_bxtp {
+    width: 47%;
+    height: 120px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .box_bottom {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .btm_left {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .lft_column1 {
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .lft_column2 {
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .btm_right {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rgt {
+    padding: 20px;
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
