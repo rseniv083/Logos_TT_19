@@ -1,0 +1,25 @@
+
+.brd2{
+    width: 40%;
+    height: 100px;
+    margin: 20px auto;
+    border: 10px dashed rgb(102, 56, 42);
+    background-color: rgb(236, 169, 122);
+    padding: 10px;
+}
+.brd3{
+    width: 40%;
+    height: 100px;
+    margin: 20px auto;
+    border: 10px double rgb(184, 30, 6);
+    background-color: rgb(240, 119, 119);
+    padding: 10px;
+}
+#brd4{
+    width: 40%;
+    height: 100px;
+    margin: 20px auto;
+    border: 10px ridge rgb(128, 69, 60);
+    background-color: rgb(122, 15, 15);
+    padding: 10px;
+}

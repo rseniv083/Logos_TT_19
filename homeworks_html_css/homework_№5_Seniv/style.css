@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grd {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to top, #dbdbdb, #f2f2f2, #ffffff);
+}
+
+@font-face {
+  font-family: "Chronica";
+  src: url(fonts/ChronicaPro-Regular.ttf);
+}
+@font-face {
+  font-family: "bahij-sultannahia";
+  src: url(fonts/bahij-sultannahia.ttf);
+}
+
+nav {
+  height: 40px;
+  width: 35%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  font-family: "bahij-sultannahia";
+  color: black;
+  font-size: 22px;
+}
+
+a:hover {
+  color: rgb(0, 128, 255);
+}
+
+.background {
+  background-color: lightgrey;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  right: 20px;
+  bottom: 30px;
+  border-radius: 20px;
+  display: flex;
+}
+
+.left_icons {
+  width: 8%;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+aside {
+  background-color: white;
+  width: 60%;
+  height: 350px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icons {
+  width: 40px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.uil {
+  font-size: 25px;
+  text-align: center;
+}
+
+.uil-folder {
+  background-color: rgb(0, 128, 255);
+  color: white;
+  border-radius: 10px;
+}
+
+.icons:hover {
+  background-color: rgb(0, 128, 255);
+  border-radius: 10px;
+  color: white;
+}
+
+.big_box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "bahij-sultannahia";
+  color: black;
+  font-size: 25px;
+}
+
+.box_top {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.small_bxtp {
+  width: 47%;
+  height: 120px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box_bottom {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btm_left {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lft_column1 {
+  width: 100%;
+  height: 40%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lft_column2 {
+  width: 100%;
+  height: 40%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.btm_right {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rgt {
+  padding: 20px;
+  width: 100%;
+  height: 90%;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* -------------------------------------------------- */
+
+.team {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.team_block {
+  width: 240px;
+  height: 240px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "bahij-sultannahia";
+  color: black;
+  font-size: 25px;
+}
+
+.team_block:hover {
+  background-color: rgb(0, 128, 255);
+  color: white;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 20px auto;
+}
+
+span {
+  font-family: "Chronica";
+  color: darkgray;
+  font-size: 15px;
+}
+
+/* ---------------------------------------------------- */
+
+.table {
+  width: 80%;
+  height: 55%;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: "bahij-sultannahia";
+  font-size: 22px;
+  border-spacing: 0;
+}
+
+tbody tr:hover {
+  background-color: white;
+}
+
+i {
+  height: 20px;
+}
+
+.img {
+  width: 35px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.img:hover {
+  background-color: rgb(0, 128, 255);
+  color: white;
+  border-color: rgb(0, 128, 255);
+}
+
+tr td:first-child {
+  border-radius: 20px 0 0 20px;
+}
+
+tr td:last-child {
+  border-radius: 0 20px 20px 0;
+}

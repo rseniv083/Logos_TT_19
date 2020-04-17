@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-y: hidden;
+}
+.container {
+  top: 30%;
+  left: 50%;
+  right: 0;
+  width: 90%;
+  min-height: 100%;
+  margin: 0 auto;
+  /*    border-left: 1px solid black;*/
+  /*    border-right: 1px solid black;*/
+}
+.container-hand {
+  top: 30%;
+  left: 50%;
+  right: 0;
+  margin-top: 550px;
+  margin-left: 1000px;
+}
+.left-arrow {
+  width: 100px;
+  height: 50px;
+  display: block;
+  margin-right: 300px;
+}
+.right-arrow {
+  width: 100px;
+  height: 60px;
+  display: block;
+}
+.section {
+  height: 100vh;
+  padding-top: 60px;
+}
+.header {
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  box-shadow: 0 0 15px 0 black;
+}
+#home {
+  background-color: rgb(245, 241, 236);
+}
+#callofduty {
+  background-color: rgb(144, 153, 144);
+}
+#divinity {
+  background-color: rgb(182, 201, 212);
+}
+#thewitcher {
+  background-color: rgb(172, 189, 201);
+}
+#heroes {
+  background-color: darkgoldenrod;
+}
+.header-logo {
+  /*    height: 60px;*/
+  width: 20%;
+  /*    background-color: brown;*/
+}
+.header-menu {
+  width: 40%;
+  /*    height: 60px;*/
+  /*    background-color: brown; */
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-link {
+  text-decoration: none;
+  color: black;
+  font-family: monospace;
+  font-size: 30px;
+}
+.menu-link {
+  display: block;
+  width: 110px;
+  height: 40px;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: monospace;
+  font-size: 18px;
+  line-height: 40px;
+  transition-duration: 0.7s;
+  transition-property: transform;
+}
+.menu-link:hover {
+  transform: scale(1.2);
+}
+.home-title h1 {
+  font-family: monospace;
+  font-size: 60px;
+}
+.pulse {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 100px;
+  font-size: 40px;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+  }
+  100% {
+    box-shadow: 0 0 0 50px rgba(255, 255, 255, 0);
+  }
+}
+
+.arrow {
+  display: block;
+  text-decoration: none;
+  color: black;
+  animation: jump 1s infinite;
+}
+@keyframes jump {
+  0% {
+    width: 60px;
+    height: 60px;
+  }
+  50% {
+    width: 30px;
+    height: 30px;
+  }
+  100% {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.imgHand {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: jump 1s infinite;
+}
+
+.container-cub {
+  box-sizing: border-box;
+}
+.container-cub {
+  display: block;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  right: 0;
+  margin: 0 auto;
+  padding: 0;
+  width: 300px;
+  height: 300px;
+  perspective: 500px;
+}
+.cube {
+  width: inherit;
+  height: inherit;
+  transform-style: preserve-3d;
+  transition: all 1s;
+}
+.side {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border: 1px solid bisque;
+  font: normal 70px arial;
+  line-height: 300px;
+}
+
+.front {
+  transform: translateZ(150px);
+}
+.back {
+  transform: rotateY(180deg) translateZ(150px);
+}
+.right {
+  transform: rotateY(90deg) translateZ(150px);
+}
+.left {
+  transform: rotateY(-90deg) translateZ(150px);
+}
+.top {
+  transform: rotateX(90deg) translateZ(150px);
+}
+.bottom {
+  transform: rotateX(-90deg) translateZ(150px);
+}
+.img-container {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.img-link {
+  transition-duration: 0.7s;
+  transition-property: transform;
+}
+
+.bottom {
+  box-shadow: 0px 0px 100px rgb(5, 5, 5); /* Параметры тени */
+  padding: 10px;
+}

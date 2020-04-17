@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'lobster';
+    src: url(Fonts/CabinSketch-Bold.ttf);
+}
+
+div {
+    padding: 0.5px;
+    width: 14.2%;
+    height: 700px;
+    float: left;
+}
+
+p {
+    text-align: center;
+    font-size: 150px;
+    font-family: 'lobster';
+    color: cornsilk;
+    margin: 250px auto;
+}
