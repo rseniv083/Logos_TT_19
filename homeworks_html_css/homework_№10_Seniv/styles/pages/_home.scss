@@ -1,0 +1,41 @@
+.container{
+    width: 100%;
+    height: 250px;
+    background-color: lightyellow;
+    display: flex;
+    position: absolute;
+    top: calc(50% - 150px);
+    .sml_cntnr{
+        width: 80px;
+        background-color: $boxesBgColor;
+        border-left: 2px solid pink;
+        @include flexCenter();
+        overflow: hidden;
+        transition: 0.8s;
+        .icons{
+            width: 80px;
+            font-size: 60px;
+            @include flexCenter();
+            transition: 0.5s;
+        }
+        .text{
+            width: 300px;
+            height: 100%;
+            font-size: 50px;
+            @include flexCenter();
+            background-color: wheat;
+        }
+
+    }
+}
+
+.sml_cntnr:hover{
+    width: 300px;
+    position: relative;
+}
+.sml_cntnr:hover .icons{
+    width: 0px;
+    font-size: 20px;
+}
+
+@include color-divs(6);

@@ -1,0 +1,29 @@
+html{
+    background-color: lightsalmon;
+}
+
+.box_animation{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    margin: 43vh auto;
+    animation-name: transform;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes transform{
+    50%{
+        transform: rotate(180deg);
+        border-radius: 0px;
+        width: 100px;
+        height: 100px;
+    }
+    100%{
+        transform: rotate(360deg);
+        border-radius: 25px;
+        width: 50px;
+        height: 50px;
+    }
+}

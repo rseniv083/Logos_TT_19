@@ -1,0 +1,65 @@
+html{
+    background-image: url(galaxy.jpeg);
+    background-size: cover;
+}
+.earth img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+}
+.orbita{
+    width: 550px;
+    height: 200px;
+    border: 1px solid rgba(211, 211, 211, 0.178);
+    -moz-border-radius: 275px / 100px;
+    -webkit-border-radius: 275px / 100px;
+    border-radius: 275px / 100px;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 275px);
+}
+
+.moonX img {
+    width: 68px;
+    height: 68px;
+    position: absolute;
+
+}
+
+.moon {
+    position: absolute;
+    z-index: 2;
+    margin: calc(50% - 68px / 2 - 400px / 2);
+    animation: yAxis 9s infinite ease-out;
+  }
+
+  .moonX {
+    position: absolute;
+    z-index: 2;
+    animation: xAxis 9s infinite ease-in;
+  }
+  
+  @keyframes xAxis {
+    50% {
+      transform: translateX(400px);
+    }
+  }
+  
+  @keyframes yAxis {
+    0%{
+        z-index: 0;
+    }
+    49%{
+        z-index: 0;
+    }
+    50% {
+      /* animation-timing-function: ease-out; */
+      transform: translateY(-400px);
+      z-index: 2;
+    }
+  }
+
