@@ -1,0 +1,34 @@
+body{
+    background-image: url(unnamed.png);
+    background-size: cover;
+}
+p{
+    width: 40%;
+    margin: 0 19%;
+}
+
+.bttns{
+    margin: 2% 22%;
+}
+.h{
+    margin: 0 22%;
+}
+
+aside{
+    width: 20%;
+    position: absolute;
+    right: 18%;
+    top: 40%;
+}
+footer{
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: rgba(105, 105, 105, 0.39);
+    padding: 0 15.5%;
+}
+
+span{
+    color: dimgray;
+    margin: 0 3%;
+}
