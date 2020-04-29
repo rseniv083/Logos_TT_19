@@ -9,6 +9,6 @@ while (ask != "logos" && ask != true) {
     ask = true;
   }
 }
-if ((ask = "logos" && ask != true)) {
+if (ask = "logos" && ask != true) {
   alert("Welcome");
 }
