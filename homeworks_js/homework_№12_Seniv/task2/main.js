@@ -28,11 +28,6 @@ div.onmousedown = function(){
     this.style.backgroundImage = 'url(https://www.shmyandeks.ru/wp-content/uploads/2014/10/anekdoty_pro_obezyan_7.jpg)';
     this.textContent = 'А я тобі не скажу';
     this.style.color = 'red';
-    // let img = document.createElement('img');
-    // img.src = 'https://www.shmyandeks.ru/wp-content/uploads/2014/10/anekdoty_pro_obezyan_7.jpg';
-    // img.style.width = '250px';
-    // img.style.height = '200px';
-    // this.appendChild(img);
 }
 
 div.onmouseup = style;
