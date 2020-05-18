@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(212, 171, 223);
+}
+
+.container{
+    width: 810px;
+    height: 500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 455px);
+}
+
+textarea{
+    width: 900px;
+    height: 200px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: flex-start;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.smallDiv{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttn{
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
