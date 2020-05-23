@@ -1,0 +1,239 @@
+main {
+  @include flexDisplay(spase-around, column);
+  h2 {
+    color: $h2Color;
+  }
+  .how_works {
+    @include flexDisplay(space-between, column);
+    @include size(940px, 461px);
+    margin: 70px auto;
+    .how_works_content {
+      @include flexDisplay(space-between, row);
+      @include size(940px, 400px);
+      margin: 30px auto;
+      .content_left {
+        @include flexDisplay(flex-end, column);
+        @include size(300px, 400px);
+        background-image: url(../assets/img/content_left.jpeg);
+        background-size: cover;
+        button {
+          @include size(80px, 30px);
+          color: $textColor;
+          background-color: $buttonColor;
+          border: 2px solid $buttonColor;
+          border-radius: 30px;
+        }
+        h2 {
+          color: $textColor;
+        }
+        p {
+          color: $textSecondColor;
+          text-align: center;
+        }
+      }
+      .content_center {
+        @extend .content_left;
+        background-image: url(../assets/img/content_center.jpeg);
+      }
+      .content_right {
+        @extend .content_left;
+        background-image: url(../assets/img/content_right.jpeg);
+      }
+    }
+  }
+  .meet_partners {
+    @include flexDisplay(justify, column);
+    margin: 90px auto;
+    button {
+      @include size(140px, 40px);
+      color: $buttonColor;
+      background: none;
+      border: 2px solid $buttonColor;
+      border-radius: 30px;
+    }
+    .partners_link {
+      @include flexDisplay(space-around, row);
+      width: 941px;
+      .partners {
+        @include flexDisplay(space-evenly, column);
+        @include size(221px, 281px);
+        span {
+          text-align: center;
+          h2 {
+            font-size: 20px;
+          }
+          p {
+            color: $textSecondColor;
+          }
+        }
+        .icons1 {
+          @include flexDisplay(flex-end, row);
+          align-items: flex-end;
+          @include size(120px, 120px);
+          border-radius: 60px;
+          background-image: url(../assets/img/avatar1.jpeg);
+          background-size: cover;
+          .swg {
+            @include flexDisplay(center, row);
+            @include size(32px, 32px);
+            background-color: rgb(27, 145, 52);
+            border: 5px solid $textColor;
+            border-radius: 20px;
+            i {
+              color: $textColor;
+              font-size: 20px;
+            }
+          }
+        }
+        .icons2 {
+          @extend .icons1;
+          background-image: url(../assets/img/avatar2.jpeg);
+          .swg {
+            background-color: rgb(189, 89, 50);
+          }
+        }
+        .icons3 {
+          @extend .icons2;
+          background-image: url(../assets/img/avatar3.jpeg);
+          .swg {
+            background-color: rgb(189, 50, 108);
+          }
+        }
+        .icons4 {
+          @extend .icons3;
+          background-image: url(../assets/img/avatar4.jpeg);
+          .swg {
+            background-color: rgb(231, 212, 34);
+          }
+        }
+      }
+    }
+  }
+  .ideas {
+    @include flexDisplay(space-between, column);
+    @include size(940px, 1073px);
+    margin: 0 auto;
+    .ideas_content {
+      @include size(940px, 310px);
+      @include flexDisplay(space-between, row);
+      .containerHover {
+        @include size(300px, 340px);
+        @include flexDisplay(center, row);
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+        .photo1 {
+          @include flexDisplay(center, row);
+          @include size(300px, 310px);
+          background-image: url(../assets/img/games.jpeg);
+          background-size: cover;
+          transition: 1s;
+          h2 {
+            color: $textColor;
+            transition: 1s;
+          }
+        }
+        .hoverPhoto1 {
+          @include flexDisplay(center, row);
+          @include size(0px, 310px);
+          background-image: url(../assets/img/sp_act.jpeg);
+          overflow: hidden;
+          background-size: cover;
+          transition: 1s;
+          h2 {
+            font-size: 0px;
+            transition: 1s;
+            color: rgba(255, 255, 255, 0.363);
+          }
+        }
+        .photo2 {
+          @extend .photo1;
+          background-image: url(../assets/img/helth.jpeg);
+        }
+        .hoverPhoto2 {
+          @extend .hoverPhoto1;
+          background-image: url(../assets/img/yoga.jpeg);
+        }
+        .photo3 {
+          @extend .photo1;
+          background-image: url(../assets/img/utah-mountain-biking-bike-biking-71104.jpeg);
+        }
+        .hoverPhoto3 {
+          @extend .hoverPhoto1;
+          background-image: url(../assets/img/ex2.jpeg);
+        }
+        .photo4 {
+          @extend .photo1;
+          background-image: url(../assets/img/games2.jpeg);
+        }
+        .hoverPhoto4 {
+          @extend .hoverPhoto1;
+          background-image: url(../assets/img/g2.jpeg);
+        }
+        .photo6 {
+          @extend .photo1;
+          background-image: url(../assets/img/cult.jpeg);
+        }
+        .hoverPhoto6 {
+          @extend .hoverPhoto1;
+          background-image: url(../assets/img/tr2.jpeg);
+        }
+      }
+      .containerHover2 {
+        @extend .containerHover;
+        width: 620px;
+        .bigger_photo5 {
+          @include flexDisplay(center, row);
+          @include size(620px, 310px);
+          background-image: url(../assets/img/rel.jpeg);
+          background-size: cover;
+          transition: 2s;
+          h2 {
+            color: $textColor;
+            transition: 2s;
+          }
+        }
+        .hoverPhoto5 {
+          @extend .hoverPhoto1;
+          background-image: url(../assets/img/cul2.jpeg);
+          transition: 2s;
+        }
+        .bigger_photo7 {
+          @extend .bigger_photo5;
+          background-image: url(../assets/img/trev.jpeg);
+        }
+        .hoverPhoto7 {
+          @extend .hoverPhoto5;
+          background-image: url(../assets/img/r2.jpeg);
+        }
+      }
+    }
+  }
+  .form_interests {
+    @include flexDisplay(space-between, column);
+    height: 200px;
+    margin: 50px auto;
+    form {
+      @include flexDisplay(space-between, column);
+      height: 150px;
+      label {
+        color: $textSecondColor;
+        font-size: 20px;
+      }
+      input {
+        @include size(300px, 30px);
+        box-sizing: border-box;
+        border: 2px solid $buttonColor;
+        padding: 0 10px;
+      }
+      button {
+        @include size(140px, 30px);
+        background-color: $buttonColor;
+        color: $textColor;
+        border: 1px solid $buttonColor;
+        border-radius: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.blink{
+  animation-name: blink;
+  animation: 4s linear infinite blink;
+}
+@keyframes blink  {
+0% { 
+  color: rgba(255, 255, 255, 0.363); }
+25% { 
+  color: rgba(255, 255, 255, 0.884); }
+50% { 
+  color: rgb(255, 255, 255); }
+75% { 
+  color: rgba(255, 255, 255, 0.884);}
+100% { 
+  color: rgba(255, 255, 255, 0.363); }
+}
+

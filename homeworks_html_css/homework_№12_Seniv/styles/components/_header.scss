@@ -1,0 +1,57 @@
+header {
+  @include flexDisplay(space-evenly, column);
+  @include size(1440px, 700px);
+  margin: 0 auto;
+  background-image: url(../assets/img/header.jpeg);
+  background-size: cover;
+  nav {
+    @include flexDisplay(space-around, row);
+    position: absolute;
+    top: 10px;
+    @include size(100%, 70px);
+    h3 {
+      color: $textSecondColor;
+      font-family: "caladea";
+      font-size: 25px;
+    }
+    .nav_a {
+      @include flexDisplay(space-between, row);
+      width: 10%;
+      a {
+        color: $textColor;
+        text-decoration: none;
+      }
+      button {
+        @include size(80px, 30px);
+        color: $textColor;
+        border: 2px solid white;
+        border-radius: 30px;
+        background: none;
+      }
+    }
+  }
+  span {
+    @include flexDisplay(space-between, column);
+    position: absolute;
+    top: 100px;
+    h1 {
+      color: rgba(255, 255, 255, 0.788);
+      text-align: center;
+      font-family: "oswald";
+      font-size: 90px;
+      width: 700px;
+    }
+    h2 {
+      color: $textColor;
+      font-family: "lateef";
+      font-size: 30px;
+    }
+    button {
+      @include size(220px, 30px);
+      background-color: $buttonColor;
+      border: 1px solid $buttonColor;
+      color: $textColor;
+      border-radius: 30px;
+    }
+  }
+}
