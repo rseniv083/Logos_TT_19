@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="containerForm">
+        <h2>Create your account</h2>
+        <form name="account">
+            <label for="first_name">First name</label>
+            <input type="text" id="first_name" name="first_name" placeholder="type here...">
+            <label for="second_name">Second name</label>
+            <input type="text" id="second_name" placeholder="type here...">
+            <label for="email">Email adress</label>
+            <input type="text" id="email" placeholder="type here...">
+
+            <div class="containerInput">
+                <input type="radio" value="man" name="man_woman">man
+                <input type="radio" value="woman" name="man_woman">woman
+            </div>
+
+            <label for="position">Position:</label>
+            <select id="position" name="position">
+                <option value="" disabled selected>Choose...</option>
+                <option value="Frontend">Frontend</option>
+                <option value="Backend">Backend</option>
+                <option value="QC/QA">QC/QA</option>
+            </select>
+
+            <div class="containerInput">
+                <input type="checkbox" name="checkbox">I agree...
+            </div>
+            <button type="button" name="signUp">Sign Up</button>
+        </form>
+    </div>
+
+    <form name="containerAcc" class="containerAcc">
+        <header></header>
+        <div class="image"></div>
+        <h3></h3>
+        <span></span>
+        <button type="button" name="signOut" class="signOut">Sign Out</button>
+        <footer>
+            <i class="uil uil-facebook-f"></i>
+            <i class="uil uil-github-alt"></i>
+            <i class="uil uil-linkedin-alt"></i>
+        </footer>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
