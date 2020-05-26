@@ -1,0 +1,20 @@
+footer{
+    @include flexDisplay(space-around, row);
+    align-items: flex-start;
+    @include size(1440px, 224px);
+    h1{
+        color: $buttonColor;
+    }
+    h2{
+        font-size: 25px;
+        color: $h2Color;
+    }
+    aside{
+        display: flex;
+        flex-direction: column;
+        a{
+            color: rgb(192, 192, 192);
+            text-decoration: none;
+        }
+    }
+}

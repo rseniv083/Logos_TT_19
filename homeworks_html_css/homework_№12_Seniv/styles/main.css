@@ -1,0 +1,1381 @@
+h2 {
+  font-family: 'caladea';
+  font-size: 30px;
+}
+
+hr {
+  border-color: red;
+  color: red;
+}
+
+@font-face {
+  font-family: 'montserra';
+  src: url(../assets/fonts/MontserratSubrayada-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'lateef';
+  src: url(../assets/fonts/Lateef-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'caladea';
+  src: url(../assets/fonts/Caladea-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'oswald';
+  src: url(../assets/fonts/Oswald-VariableFont_wght.ttf);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 1440px;
+  height: 700px;
+  margin: 0 auto;
+  background-image: url(../assets/img/header.jpeg);
+  background-size: cover;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  height: 70px;
+}
+
+header nav h3 {
+  color: #c49d9d;
+  font-family: "caladea";
+  font-size: 25px;
+}
+
+header nav .nav_a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 10%;
+}
+
+header nav .nav_a a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav .nav_a button {
+  width: 80px;
+  height: 30px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  background: none;
+}
+
+header span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 100px;
+}
+
+header span h1 {
+  color: rgba(255, 255, 255, 0.788);
+  text-align: center;
+  font-family: "oswald";
+  font-size: 90px;
+  width: 700px;
+}
+
+header span h2 {
+  color: white;
+  font-family: "lateef";
+  font-size: 30px;
+}
+
+header span button {
+  width: 220px;
+  height: 30px;
+  background-color: #e04f2b;
+  border: 1px solid #e04f2b;
+  color: white;
+  border-radius: 30px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: spase-around;
+      -ms-flex-pack: spase-around;
+          justify-content: spase-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main h2 {
+  color: #3b3a3a;
+}
+
+main .how_works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 940px;
+  height: 461px;
+  margin: 70px auto;
+}
+
+main .how_works .how_works_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 940px;
+  height: 400px;
+  margin: 30px auto;
+}
+
+main .how_works .how_works_content .content_left, main .how_works .how_works_content .content_center, main .how_works .how_works_content .content_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  height: 400px;
+  background-image: url(../assets/img/content_left.jpeg);
+  background-size: cover;
+}
+
+main .how_works .how_works_content .content_left button, main .how_works .how_works_content .content_center button, main .how_works .how_works_content .content_right button {
+  width: 80px;
+  height: 30px;
+  color: white;
+  background-color: #e04f2b;
+  border: 2px solid #e04f2b;
+  border-radius: 30px;
+}
+
+main .how_works .how_works_content .content_left h2, main .how_works .how_works_content .content_center h2, main .how_works .how_works_content .content_right h2 {
+  color: white;
+}
+
+main .how_works .how_works_content .content_left p, main .how_works .how_works_content .content_center p, main .how_works .how_works_content .content_right p {
+  color: #c49d9d;
+  text-align: center;
+}
+
+main .how_works .how_works_content .content_center {
+  background-image: url(../assets/img/content_center.jpeg);
+}
+
+main .how_works .how_works_content .content_right {
+  background-image: url(../assets/img/content_right.jpeg);
+}
+
+main .meet_partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: justify;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 90px auto;
+}
+
+main .meet_partners button {
+  width: 140px;
+  height: 40px;
+  color: #e04f2b;
+  background: none;
+  border: 2px solid #e04f2b;
+  border-radius: 30px;
+}
+
+main .meet_partners .partners_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 941px;
+}
+
+main .meet_partners .partners_link .partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 221px;
+  height: 281px;
+}
+
+main .meet_partners .partners_link .partners span {
+  text-align: center;
+}
+
+main .meet_partners .partners_link .partners span h2 {
+  font-size: 20px;
+}
+
+main .meet_partners .partners_link .partners span p {
+  color: #c49d9d;
+}
+
+main .meet_partners .partners_link .partners .icons1, main .meet_partners .partners_link .partners .icons2, main .meet_partners .partners_link .partners .icons3, main .meet_partners .partners_link .partners .icons4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background-image: url(../assets/img/avatar1.jpeg);
+  background-size: cover;
+}
+
+main .meet_partners .partners_link .partners .icons1 .swg, main .meet_partners .partners_link .partners .icons2 .swg, main .meet_partners .partners_link .partners .icons3 .swg, main .meet_partners .partners_link .partners .icons4 .swg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 32px;
+  height: 32px;
+  background-color: #1b9134;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+
+main .meet_partners .partners_link .partners .icons1 .swg i, main .meet_partners .partners_link .partners .icons2 .swg i, main .meet_partners .partners_link .partners .icons3 .swg i, main .meet_partners .partners_link .partners .icons4 .swg i {
+  color: white;
+  font-size: 20px;
+}
+
+main .meet_partners .partners_link .partners .icons2, main .meet_partners .partners_link .partners .icons3, main .meet_partners .partners_link .partners .icons4 {
+  background-image: url(../assets/img/avatar2.jpeg);
+}
+
+main .meet_partners .partners_link .partners .icons2 .swg, main .meet_partners .partners_link .partners .icons3 .swg, main .meet_partners .partners_link .partners .icons4 .swg {
+  background-color: #bd5932;
+}
+
+main .meet_partners .partners_link .partners .icons3, main .meet_partners .partners_link .partners .icons4 {
+  background-image: url(../assets/img/avatar3.jpeg);
+}
+
+main .meet_partners .partners_link .partners .icons3 .swg, main .meet_partners .partners_link .partners .icons4 .swg {
+  background-color: #bd326c;
+}
+
+main .meet_partners .partners_link .partners .icons4 {
+  background-image: url(../assets/img/avatar4.jpeg);
+}
+
+main .meet_partners .partners_link .partners .icons4 .swg {
+  background-color: #e7d422;
+}
+
+main .ideas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 940px;
+  height: 1073px;
+  margin: 0 auto;
+}
+
+main .ideas .ideas_content {
+  width: 940px;
+  height: 310px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main .ideas .ideas_content .containerHover, main .ideas .ideas_content .containerHover2 {
+  width: 300px;
+  height: 340px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+main .ideas .ideas_content .containerHover .photo1, main .ideas .ideas_content .containerHover2 .photo1, main .ideas .ideas_content .containerHover .photo2, main .ideas .ideas_content .containerHover2 .photo2, main .ideas .ideas_content .containerHover .photo3, main .ideas .ideas_content .containerHover2 .photo3, main .ideas .ideas_content .containerHover .photo4, main .ideas .ideas_content .containerHover2 .photo4, main .ideas .ideas_content .containerHover .photo6, main .ideas .ideas_content .containerHover2 .photo6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 300px;
+  height: 310px;
+  background-image: url(../assets/img/games.jpeg);
+  background-size: cover;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+main .ideas .ideas_content .containerHover .photo1 h2, main .ideas .ideas_content .containerHover2 .photo1 h2, main .ideas .ideas_content .containerHover .photo2 h2, main .ideas .ideas_content .containerHover2 .photo2 h2, main .ideas .ideas_content .containerHover .photo3 h2, main .ideas .ideas_content .containerHover2 .photo3 h2, main .ideas .ideas_content .containerHover .photo4 h2, main .ideas .ideas_content .containerHover2 .photo4 h2, main .ideas .ideas_content .containerHover .photo6 h2, main .ideas .ideas_content .containerHover2 .photo6 h2 {
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+main .ideas .ideas_content .containerHover .hoverPhoto1, main .ideas .ideas_content .containerHover2 .hoverPhoto1, main .ideas .ideas_content .containerHover .hoverPhoto2, main .ideas .ideas_content .containerHover2 .hoverPhoto2, main .ideas .ideas_content .containerHover .hoverPhoto3, main .ideas .ideas_content .containerHover2 .hoverPhoto3, main .ideas .ideas_content .containerHover .hoverPhoto4, main .ideas .ideas_content .containerHover2 .hoverPhoto4, main .ideas .ideas_content .containerHover .hoverPhoto6, main .ideas .ideas_content .containerHover2 .hoverPhoto6, main .ideas .ideas_content .containerHover2 .hoverPhoto5, main .ideas .ideas_content .containerHover2 .hoverPhoto7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 0px;
+  height: 310px;
+  background-image: url(../assets/img/sp_act.jpeg);
+  overflow: hidden;
+  background-size: cover;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+main .ideas .ideas_content .containerHover .hoverPhoto1 h2, main .ideas .ideas_content .containerHover2 .hoverPhoto1 h2, main .ideas .ideas_content .containerHover .hoverPhoto2 h2, main .ideas .ideas_content .containerHover2 .hoverPhoto2 h2, main .ideas .ideas_content .containerHover .hoverPhoto3 h2, main .ideas .ideas_content .containerHover2 .hoverPhoto3 h2, main .ideas .ideas_content .containerHover .hoverPhoto4 h2, main .ideas .ideas_content .containerHover2 .hoverPhoto4 h2, main .ideas .ideas_content .containerHover .hoverPhoto6 h2, main .ideas .ideas_content .containerHover2 .hoverPhoto6 h2, main .ideas .ideas_content .containerHover2 .hoverPhoto5 h2, main .ideas .ideas_content .containerHover2 .hoverPhoto7 h2 {
+  font-size: 0px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: rgba(255, 255, 255, 0.363);
+}
+
+main .ideas .ideas_content .containerHover .photo2, main .ideas .ideas_content .containerHover2 .photo2 {
+  background-image: url(../assets/img/helth.jpeg);
+}
+
+main .ideas .ideas_content .containerHover .hoverPhoto2, main .ideas .ideas_content .containerHover2 .hoverPhoto2 {
+  background-image: url(../assets/img/yoga.jpeg);
+}
+
+main .ideas .ideas_content .containerHover .photo3, main .ideas .ideas_content .containerHover2 .photo3 {
+  background-image: url(../assets/img/utah-mountain-biking-bike-biking-71104.jpeg);
+}
+
+main .ideas .ideas_content .containerHover .hoverPhoto3, main .ideas .ideas_content .containerHover2 .hoverPhoto3 {
+  background-image: url(../assets/img/ex2.jpeg);
+}
+
+main .ideas .ideas_content .containerHover .photo4, main .ideas .ideas_content .containerHover2 .photo4 {
+  background-image: url(../assets/img/games2.jpeg);
+}
+
+main .ideas .ideas_content .containerHover .hoverPhoto4, main .ideas .ideas_content .containerHover2 .hoverPhoto4 {
+  background-image: url(../assets/img/g2.jpeg);
+}
+
+main .ideas .ideas_content .containerHover .photo6, main .ideas .ideas_content .containerHover2 .photo6 {
+  background-image: url(../assets/img/cult.jpeg);
+}
+
+main .ideas .ideas_content .containerHover .hoverPhoto6, main .ideas .ideas_content .containerHover2 .hoverPhoto6 {
+  background-image: url(../assets/img/tr2.jpeg);
+}
+
+main .ideas .ideas_content .containerHover2 {
+  width: 620px;
+}
+
+main .ideas .ideas_content .containerHover2 .bigger_photo5, main .ideas .ideas_content .containerHover2 .bigger_photo7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 620px;
+  height: 310px;
+  background-image: url(../assets/img/rel.jpeg);
+  background-size: cover;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+main .ideas .ideas_content .containerHover2 .bigger_photo5 h2, main .ideas .ideas_content .containerHover2 .bigger_photo7 h2 {
+  color: white;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+main .ideas .ideas_content .containerHover2 .hoverPhoto5, main .ideas .ideas_content .containerHover2 .hoverPhoto7 {
+  background-image: url(../assets/img/cul2.jpeg);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+main .ideas .ideas_content .containerHover2 .bigger_photo7 {
+  background-image: url(../assets/img/trev.jpeg);
+}
+
+main .ideas .ideas_content .containerHover2 .hoverPhoto7 {
+  background-image: url(../assets/img/r2.jpeg);
+}
+
+main .form_interests {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 200px;
+  margin: 50px auto;
+}
+
+main .form_interests form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 150px;
+}
+
+main .form_interests form label {
+  color: #c49d9d;
+  font-size: 20px;
+}
+
+main .form_interests form input {
+  width: 300px;
+  height: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid #e04f2b;
+  padding: 0 10px;
+}
+
+main .form_interests form button {
+  width: 140px;
+  height: 30px;
+  background-color: #e04f2b;
+  color: white;
+  border: 1px solid #e04f2b;
+  border-radius: 30px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 1440px;
+  height: 224px;
+}
+
+footer h1 {
+  color: #e04f2b;
+}
+
+footer h2 {
+  font-size: 25px;
+  color: #3b3a3a;
+}
+
+footer aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer aside a {
+  color: silver;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    width: 1024px;
+    height: 700px;
+    background-image: url(../assets/img/header2.jpeg);
+  }
+  header nav .nav_a {
+    width: 20%;
+  }
+  footer {
+    width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 768px;
+    height: 700px;
+    background-image: url(../assets/img/header2.jpeg);
+  }
+  header nav .nav_a {
+    width: 20%;
+  }
+  main .how_works {
+    width: 748px;
+  }
+  main .how_works .how_works_content {
+    width: 748px;
+    height: 400px;
+  }
+  main .how_works .how_works_content .content_left, main .how_works .how_works_content .content_center, main .how_works .how_works_content .content_right {
+    width: 236px;
+    height: 400px;
+  }
+  main .meet_partners .partners_link {
+    width: 492px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .meet_partners .partners_link .partners {
+    width: 236px;
+    height: 281px;
+  }
+  main .ideas {
+    width: 748px;
+    height: 1070px;
+  }
+  main .ideas .ideas_content {
+    width: 748px;
+  }
+  main .ideas .ideas_content .photo1, main .ideas .ideas_content .containerHover .photo2, main .ideas .ideas_content .containerHover2 .photo2, main .ideas .ideas_content .containerHover .photo3, main .ideas .ideas_content .containerHover2 .photo3, main .ideas .ideas_content .containerHover .photo4, main .ideas .ideas_content .containerHover2 .photo4, main .ideas .ideas_content .containerHover .photo6, main .ideas .ideas_content .containerHover2 .photo6 {
+    width: 236px;
+  }
+  main .ideas .ideas_content .bigger_photo5, main .ideas .ideas_content .containerHover2 .bigger_photo7 {
+    width: 492px;
+  }
+  footer {
+    width: 768px;
+  }
+  footer h1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  header {
+    width: 414px;
+    height: 600px;
+    background-image: url(../assets/img/header3.jpeg);
+  }
+  header nav h3 {
+    color: #e04f2b;
+  }
+  header nav .nav_a {
+    width: 45%;
+  }
+  header span {
+    width: 414px;
+  }
+  header span h1 {
+    width: 414px;
+    font-size: 50px;
+  }
+  header span h2 {
+    font-size: 25px;
+  }
+  main h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  main .how_works {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 370px;
+    height: 1000px;
+    margin: 0 auto;
+  }
+  main .how_works .how_works_content {
+    width: 370px;
+    height: 290px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  main .how_works .how_works_content .content_left, main .how_works .how_works_content .content_center, main .how_works .how_works_content .content_right {
+    width: 370px;
+    height: 290px;
+    margin: 0 0 10px 0;
+    background-image: url(../assets/img/content_left1.jpeg);
+  }
+  main .how_works .how_works_content .content_center {
+    background-image: url(../assets/img/content_center1.jpeg);
+  }
+  main .how_works .how_works_content .content_right {
+    background-image: url(../assets/img/content_right1.jpeg);
+  }
+  main .meet_partners {
+    margin: 0 auto;
+  }
+  main .meet_partners .partners_link {
+    width: 370px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .meet_partners .partners_link .partners {
+    width: 300px;
+    height: 310px;
+  }
+  main .meet_partners .partners_link .partners .icons1, main .meet_partners .partners_link .partners .icons2, main .meet_partners .partners_link .partners .icons3, main .meet_partners .partners_link .partners .icons4 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+  }
+  main .ideas {
+    width: 370px;
+    height: 1300px;
+    text-align: center;
+  }
+  main .ideas .ideas_content {
+    width: 370px;
+    height: 530px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .ideas .ideas_content .containerHover, main .ideas .ideas_content .containerHover2 {
+    width: 340px;
+    height: 180px;
+  }
+  main .ideas .ideas_content .containerHover .photo1, main .ideas .ideas_content .containerHover2 .photo1, main .ideas .ideas_content .containerHover .photo2, main .ideas .ideas_content .containerHover2 .photo2, main .ideas .ideas_content .containerHover .photo3, main .ideas .ideas_content .containerHover2 .photo3, main .ideas .ideas_content .containerHover .photo4, main .ideas .ideas_content .containerHover2 .photo4, main .ideas .ideas_content .containerHover .photo6, main .ideas .ideas_content .containerHover2 .photo6 {
+    width: 340px;
+    height: 170px;
+    background-image: url(../assets/img/games_m.jpeg);
+    margin: 5px;
+  }
+  main .ideas .ideas_content .containerHover .photo2, main .ideas .ideas_content .containerHover2 .photo2 {
+    background-image: url(../assets/img/helth_m.jpeg);
+  }
+  main .ideas .ideas_content .containerHover .photo3, main .ideas .ideas_content .containerHover2 .photo3 {
+    background-image: url(../assets/img/utah-mountain-biking-bike-biking-71104.jpeg);
+  }
+  main .ideas .ideas_content .containerHover .photo4, main .ideas .ideas_content .containerHover2 .photo4 {
+    background-image: url(../assets/img/games2.jpeg);
+  }
+  main .ideas .ideas_content .containerHover .photo6, main .ideas .ideas_content .containerHover2 .photo6 {
+    background-image: url(../assets/img/cult_m.jpeg);
+  }
+  main .ideas .ideas_content .containerHover2 {
+    width: 340px;
+    height: 180px;
+  }
+  main .ideas .ideas_content .containerHover2 .bigger_photo5, main .ideas .ideas_content .containerHover2 .bigger_photo7 {
+    width: 340px;
+    height: 170px;
+    margin: 5px;
+  }
+  main .form_interests {
+    margin: 50px 10px 0 10px;
+  }
+  main .form_interests form {
+    width: 370px;
+  }
+  main .form_interests form .input input {
+    width: 340px;
+    margin: 10px;
+  }
+  main .form_interests form .input button {
+    width: 340px;
+    margin: 0 10px;
+  }
+  footer {
+    width: 414px;
+    height: 230px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer h1 {
+    font-size: 20px;
+  }
+  footer h2 {
+    font-size: 15px;
+  }
+  footer aside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 280px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 100px;
+  }
+  footer aside h2 {
+    margin: 0 140px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    width: 375px;
+    height: 600px;
+    background-image: url(../assets/img/header3.jpeg);
+  }
+  header nav h3 {
+    color: #e04f2b;
+  }
+  header nav .nav_a {
+    width: 40%;
+  }
+  header span {
+    width: 375px;
+  }
+  header span h1 {
+    width: 375px;
+    font-size: 50px;
+  }
+  header span h2 {
+    font-size: 25px;
+  }
+  main h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  main .how_works {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 320px;
+    height: 900px;
+    margin: 0 auto;
+  }
+  main .how_works .how_works_content {
+    width: 340px;
+    height: 260px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  main .how_works .how_works_content .content_left, main .how_works .how_works_content .content_center, main .how_works .how_works_content .content_right {
+    width: 320px;
+    height: 260px;
+    margin: 0 0 10px 0;
+    background-image: url(../assets/img/content_left1.jpeg);
+  }
+  main .how_works .how_works_content .content_center {
+    background-image: url(../assets/img/content_center1.jpeg);
+  }
+  main .how_works .how_works_content .content_right {
+    background-image: url(../assets/img/content_right1.jpeg);
+  }
+  main .meet_partners {
+    margin: 0 auto;
+  }
+  main .meet_partners .partners_link {
+    width: 340px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .meet_partners .partners_link .partners {
+    width: 300px;
+    height: 310px;
+  }
+  main .meet_partners .partners_link .partners .icons1, main .meet_partners .partners_link .partners .icons2, main .meet_partners .partners_link .partners .icons3, main .meet_partners .partners_link .partners .icons4 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+  }
+  main .ideas {
+    width: 340px;
+    height: 1150px;
+    text-align: center;
+  }
+  main .ideas .ideas_content {
+    width: 320px;
+    height: 470px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .ideas .ideas_content .containerHover, main .ideas .ideas_content .containerHover2 {
+    width: 300px;
+    height: 150px;
+  }
+  main .ideas .ideas_content .containerHover .photo1, main .ideas .ideas_content .containerHover2 .photo1, main .ideas .ideas_content .containerHover .photo2, main .ideas .ideas_content .containerHover2 .photo2, main .ideas .ideas_content .containerHover .photo3, main .ideas .ideas_content .containerHover2 .photo3, main .ideas .ideas_content .containerHover .photo4, main .ideas .ideas_content .containerHover2 .photo4, main .ideas .ideas_content .containerHover .photo6, main .ideas .ideas_content .containerHover2 .photo6 {
+    width: 300px;
+    height: 140px;
+    background-image: url(../assets/img/games_m.jpeg);
+    margin: 5px;
+  }
+  main .ideas .ideas_content .containerHover .photo2, main .ideas .ideas_content .containerHover2 .photo2 {
+    background-image: url(../assets/img/helth_m.jpeg);
+  }
+  main .ideas .ideas_content .containerHover .photo3, main .ideas .ideas_content .containerHover2 .photo3 {
+    background-image: url(../assets/img/utah-mountain-biking-bike-biking-71104.jpeg);
+  }
+  main .ideas .ideas_content .containerHover .photo4, main .ideas .ideas_content .containerHover2 .photo4 {
+    background-image: url(../assets/img/games2.jpeg);
+  }
+  main .ideas .ideas_content .containerHover .photo6, main .ideas .ideas_content .containerHover2 .photo6 {
+    background-image: url(../assets/img/cult_m.jpeg);
+  }
+  main .ideas .ideas_content .containerHover2 {
+    width: 300px;
+    height: 150px;
+  }
+  main .ideas .ideas_content .containerHover2 .bigger_photo5, main .ideas .ideas_content .containerHover2 .bigger_photo7 {
+    width: 300px;
+    height: 140px;
+    margin: 5px;
+  }
+  main .form_interests {
+    margin: 50px 10px 0 10px;
+  }
+  main .form_interests form {
+    width: 340px;
+  }
+  main .form_interests form .input input {
+    width: 300px;
+    margin: 10px;
+  }
+  main .form_interests form .input button {
+    width: 300px;
+    margin: 0 10px;
+  }
+  footer {
+    width: 375px;
+    height: 210px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer h1 {
+    font-size: 20px;
+  }
+  footer h2 {
+    font-size: 15px;
+  }
+  footer aside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 250px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 100px;
+  }
+  footer aside h2 {
+    margin: 0 140px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header {
+    width: 100%;
+    height: 540px;
+    background-image: url(../assets/img/header3.jpeg);
+  }
+  header nav h3 {
+    color: #e04f2b;
+  }
+  header nav .nav_a {
+    width: 40%;
+  }
+  header span {
+    width: 320px;
+  }
+  header span h1 {
+    width: 320px;
+    font-size: 45px;
+  }
+  header span h2 {
+    font-size: 20px;
+  }
+  main h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  main .how_works {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 300px;
+    height: 830px;
+    margin: 0 auto;
+  }
+  main .how_works .how_works_content {
+    width: 300px;
+    height: 240px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  main .how_works .how_works_content .content_left, main .how_works .how_works_content .content_center, main .how_works .how_works_content .content_right {
+    width: 300px;
+    height: 240px;
+    margin: 0 0 10px 0;
+    background-image: url(../assets/img/content_left1.jpeg);
+  }
+  main .how_works .how_works_content .content_center {
+    background-image: url(../assets/img/content_center1.jpeg);
+  }
+  main .how_works .how_works_content .content_right {
+    background-image: url(../assets/img/content_right1.jpeg);
+  }
+  main .meet_partners {
+    margin: 0 auto;
+  }
+  main .meet_partners .partners_link {
+    width: 300px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .ideas {
+    width: 300px;
+    height: 900px;
+    text-align: center;
+  }
+  main .ideas .ideas_content {
+    width: 300px;
+    height: 390px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .ideas .ideas_content .containerHover, main .ideas .ideas_content .containerHover2 {
+    height: 130px;
+  }
+  main .ideas .ideas_content .containerHover .photo1, main .ideas .ideas_content .containerHover2 .photo1, main .ideas .ideas_content .containerHover .photo2, main .ideas .ideas_content .containerHover2 .photo2, main .ideas .ideas_content .containerHover .photo3, main .ideas .ideas_content .containerHover2 .photo3, main .ideas .ideas_content .containerHover .photo4, main .ideas .ideas_content .containerHover2 .photo4, main .ideas .ideas_content .containerHover .photo6, main .ideas .ideas_content .containerHover2 .photo6 {
+    width: 300px;
+    height: 120px;
+    background-image: url(../assets/img/games_m.jpeg);
+    margin: 5px;
+  }
+  main .ideas .ideas_content .containerHover .photo2, main .ideas .ideas_content .containerHover2 .photo2 {
+    background-image: url(../assets/img/helth_m.jpeg);
+  }
+  main .ideas .ideas_content .containerHover .photo3, main .ideas .ideas_content .containerHover2 .photo3 {
+    background-image: url(../assets/img/utah-mountain-biking-bike-biking-71104.jpeg);
+  }
+  main .ideas .ideas_content .containerHover .photo4, main .ideas .ideas_content .containerHover2 .photo4 {
+    background-image: url(../assets/img/games2.jpeg);
+  }
+  main .ideas .ideas_content .containerHover .photo6, main .ideas .ideas_content .containerHover2 .photo6 {
+    background-image: url(../assets/img/cult_m.jpeg);
+  }
+  main .ideas .ideas_content .containerHover2 {
+    height: 130px;
+  }
+  main .ideas .ideas_content .containerHover2 .bigger_photo5, main .ideas .ideas_content .containerHover2 .bigger_photo7 {
+    width: 300px;
+    height: 120px;
+    margin: 5px;
+  }
+  main .form_interests {
+    margin: 50px 10px 0 10px;
+  }
+  main .form_interests form {
+    width: 300px;
+  }
+  main .form_interests form .input input {
+    width: 280px;
+    margin: 10px;
+  }
+  main .form_interests form .input button {
+    width: 280px;
+    margin: 0 10px;
+  }
+  footer {
+    width: 320px;
+    height: 204px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer h1 {
+    font-size: 20px;
+  }
+  footer h2 {
+    font-size: 15px;
+  }
+  footer aside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 250px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 100px;
+  }
+  footer aside h2 {
+    margin: 0 140px;
+  }
+}
+
+.blink {
+  -webkit-animation-name: blink;
+          animation-name: blink;
+  -webkit-animation: 4s linear infinite blink;
+          animation: 4s linear infinite blink;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    color: rgba(255, 255, 255, 0.363);
+  }
+  25% {
+    color: rgba(255, 255, 255, 0.884);
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: rgba(255, 255, 255, 0.884);
+  }
+  100% {
+    color: rgba(255, 255, 255, 0.363);
+  }
+}
+
+@keyframes blink {
+  0% {
+    color: rgba(255, 255, 255, 0.363);
+  }
+  25% {
+    color: rgba(255, 255, 255, 0.884);
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: rgba(255, 255, 255, 0.884);
+  }
+  100% {
+    color: rgba(255, 255, 255, 0.363);
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  main .ideas .ideas_content .containerHover:hover .photo1, main .ideas .ideas_content .containerHover2:hover .photo1, main .ideas .ideas_content .containerHover:hover .photo2, main .ideas .ideas_content .containerHover2:hover .photo2, main .ideas .ideas_content .containerHover:hover .photo3, main .ideas .ideas_content .containerHover2:hover .photo3, main .ideas .ideas_content .containerHover:hover .photo4, main .ideas .ideas_content .containerHover2:hover .photo4, main .ideas .ideas_content .containerHover:hover .photo6, main .ideas .ideas_content .containerHover2:hover .photo6 {
+    width: 0px;
+    height: 280px;
+  }
+  main .ideas .ideas_content .containerHover:hover .photo1 h2, main .ideas .ideas_content .containerHover2:hover .photo1 h2, main .ideas .ideas_content .containerHover:hover .photo2 h2, main .ideas .ideas_content .containerHover2:hover .photo2 h2, main .ideas .ideas_content .containerHover:hover .photo3 h2, main .ideas .ideas_content .containerHover2:hover .photo3 h2, main .ideas .ideas_content .containerHover:hover .photo4 h2, main .ideas .ideas_content .containerHover2:hover .photo4 h2, main .ideas .ideas_content .containerHover:hover .photo6 h2, main .ideas .ideas_content .containerHover2:hover .photo6 h2 {
+    font-size: 0px;
+    color: rgba(255, 255, 255, 0.363);
+  }
+  main .ideas .ideas_content .containerHover:hover .hoverPhoto1, main .ideas .ideas_content .containerHover2:hover .hoverPhoto1, main .ideas .ideas_content .containerHover:hover .hoverPhoto2, main .ideas .ideas_content .containerHover2:hover .hoverPhoto2, main .ideas .ideas_content .containerHover:hover .hoverPhoto3, main .ideas .ideas_content .containerHover2:hover .hoverPhoto3, main .ideas .ideas_content .containerHover:hover .hoverPhoto4, main .ideas .ideas_content .containerHover2:hover .hoverPhoto4, main .ideas .ideas_content .containerHover:hover .hoverPhoto6, main .ideas .ideas_content .containerHover2:hover .hoverPhoto6, main .ideas .ideas_content .containerHover:hover .containerHover2 .hoverPhoto5, main .ideas .ideas_content .containerHover2 .containerHover:hover .hoverPhoto5, main .ideas .ideas_content .containerHover2:hover .hoverPhoto5, main .ideas .ideas_content .containerHover:hover .containerHover2 .hoverPhoto7, main .ideas .ideas_content .containerHover2 .containerHover:hover .hoverPhoto7, main .ideas .ideas_content .containerHover2:hover .hoverPhoto7 {
+    width: 300px;
+    height: 340px;
+  }
+  main .ideas .ideas_content .containerHover:hover .hoverPhoto1 h2, main .ideas .ideas_content .containerHover2:hover .hoverPhoto1 h2, main .ideas .ideas_content .containerHover:hover .hoverPhoto2 h2, main .ideas .ideas_content .containerHover2:hover .hoverPhoto2 h2, main .ideas .ideas_content .containerHover:hover .hoverPhoto3 h2, main .ideas .ideas_content .containerHover2:hover .hoverPhoto3 h2, main .ideas .ideas_content .containerHover:hover .hoverPhoto4 h2, main .ideas .ideas_content .containerHover2:hover .hoverPhoto4 h2, main .ideas .ideas_content .containerHover:hover .hoverPhoto6 h2, main .ideas .ideas_content .containerHover2:hover .hoverPhoto6 h2, main .ideas .ideas_content .containerHover:hover .containerHover2 .hoverPhoto5 h2, main .ideas .ideas_content .containerHover2 .containerHover:hover .hoverPhoto5 h2, main .ideas .ideas_content .containerHover2:hover .hoverPhoto5 h2, main .ideas .ideas_content .containerHover:hover .containerHover2 .hoverPhoto7 h2, main .ideas .ideas_content .containerHover2 .containerHover:hover .hoverPhoto7 h2, main .ideas .ideas_content .containerHover2:hover .hoverPhoto7 h2 {
+    font-size: 30px;
+    color: white;
+  }
+  main .ideas .ideas_content .containerHover:hover .bigger_photo5, main .ideas .ideas_content .containerHover2:hover .bigger_photo5, main .ideas .ideas_content .containerHover:hover .containerHover2 .bigger_photo7, main .ideas .ideas_content .containerHover2 .containerHover:hover .bigger_photo7, main .ideas .ideas_content .containerHover2:hover .bigger_photo7 {
+    width: 0px;
+    height: 280px;
+  }
+  main .ideas .ideas_content .containerHover:hover .bigger_photo5 h2, main .ideas .ideas_content .containerHover2:hover .bigger_photo5 h2, main .ideas .ideas_content .containerHover:hover .containerHover2 .bigger_photo7 h2, main .ideas .ideas_content .containerHover2 .containerHover:hover .bigger_photo7 h2, main .ideas .ideas_content .containerHover2:hover .bigger_photo7 h2 {
+    font-size: 0px;
+    color: rgba(255, 255, 255, 0.363);
+  }
+  main .ideas .ideas_content .containerHover:hover .hoverPhoto5, main .ideas .ideas_content .containerHover2:hover .hoverPhoto5, main .ideas .ideas_content .containerHover:hover .containerHover2 .hoverPhoto7, main .ideas .ideas_content .containerHover2 .containerHover:hover .hoverPhoto7, main .ideas .ideas_content .containerHover2:hover .hoverPhoto7 {
+    width: 620px;
+    height: 340px;
+  }
+  main .ideas .ideas_content .containerHover:hover .hoverPhoto5 h2, main .ideas .ideas_content .containerHover2:hover .hoverPhoto5 h2, main .ideas .ideas_content .containerHover:hover .containerHover2 .hoverPhoto7 h2, main .ideas .ideas_content .containerHover2 .containerHover:hover .hoverPhoto7 h2, main .ideas .ideas_content .containerHover2:hover .hoverPhoto7 h2 {
+    font-size: 30px;
+    color: white;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,35 @@
+
+@media screen and (min-width: 1080px){
+
+  main .ideas .ideas_content .containerHover:hover .photo1{
+    @include size(0px, 280px);
+    h2{
+      font-size: 0px;
+      color: rgba(255, 255, 255, 0.363);
+    }
+  }
+  
+  main .ideas .ideas_content .containerHover:hover .hoverPhoto1{
+    @include size(300px, 340px);
+     h2{
+       font-size: 30px;
+       color: $textColor;
+     }
+  }
+  
+  main .ideas .ideas_content .containerHover:hover .bigger_photo5{
+    @include size(0px, 280px);
+    h2{
+      font-size: 0px;
+      color: rgba(255, 255, 255, 0.363);
+    }
+  }
+  
+  main .ideas .ideas_content .containerHover:hover .hoverPhoto5{
+    @include size(620px, 340px);
+     h2{
+       font-size: 30px;
+       color: $textColor;
+     }
+  }
+}

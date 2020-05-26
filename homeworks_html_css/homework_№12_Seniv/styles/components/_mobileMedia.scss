@@ -1,0 +1,407 @@
+@media screen and (max-width: 414px){
+  header{
+    @include size(414px, 600px);
+    background-image: url(../assets/img/header3.jpeg);
+    nav{
+      h3{
+        color: $buttonColor;
+      }
+      .nav_a{
+        width: 45%;
+      }
+    }
+    span{
+      width: 414px;
+      h1{
+        width: 414px;
+        font-size: 50px;
+      }
+      h2{
+        font-size: 25px;
+      }
+    }
+  }
+  main{
+    h2{
+      font-size: 30px;
+      text-align: center;
+    }
+    .how_works{
+      @include flexDisplay(flex-start, column);
+      width: 370px;
+      height: 1000px;
+      margin: 0 auto;
+      .how_works_content{
+        @include size(370px, 290px);
+        flex-wrap: wrap;
+        margin: 0 auto;
+        .content_left{
+          @include size(370px, 290px);
+          margin: 0 0 10px 0;
+          background-image: url(../assets/img/content_left1.jpeg);
+        }
+        .content_center {
+          background-image: url(../assets/img/content_center1.jpeg);
+        }
+        .content_right {
+          background-image: url(../assets/img/content_right1.jpeg);
+        }
+      }
+    }
+    .meet_partners {
+      margin: 0 auto;
+      .partners_link {
+        width: 370px;
+        flex-wrap: wrap;
+        .partners{
+          width: 300px;
+          height: 310px;
+          .icons1{
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+          }
+        }
+      }
+    }
+    .ideas {
+      @include size(370px, 1300px);
+      text-align: center;
+      .ideas_content {
+        @include size(370px, 530px);
+        flex-direction: column;
+        .containerHover {
+          @include size(340px, 180px);
+          .photo1 {
+            @include size(340px, 170px);
+            background-image: url(../assets/img/games_m.jpeg);
+            margin: 5px;
+          }
+          .photo2 {
+            background-image: url(../assets/img/helth_m.jpeg);
+          }
+          .photo3 {
+              background-image: url(../assets/img/utah-mountain-biking-bike-biking-71104.jpeg);
+            }
+            .photo4 {
+              background-image: url(../assets/img/games2.jpeg);
+            }
+          .photo6 {
+            background-image: url(../assets/img/cult_m.jpeg);
+          }
+        }
+        .containerHover2 {
+          @include size(340px, 180px);
+          .bigger_photo5 {
+            @include size(340px, 170px);
+            margin: 5px;
+          }
+        }
+      }
+    }
+    .form_interests{
+      margin: 50px 10px 0 10px;
+      form{
+          width: 370px;
+          .input{
+              input{
+                  width: 340px;
+                  margin: 10px;
+              }
+              button{
+                  width: 340px;
+                  margin: 0 10px;
+              }
+          }
+      }
+    }
+  }
+  footer{
+    @include size(414px, 230px);
+    @include flexDisplay(space-between, column);
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    aside{
+        @include flexDisplay(space-evenly, row);
+        width: 280px;
+        flex-wrap: wrap;
+        h2{
+            margin: 0 140px;
+        }
+        height: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 375px){
+  header{
+    @include size(375px, 600px);
+    background-image: url(../assets/img/header3.jpeg);
+    nav{
+      h3{
+        color: $buttonColor;
+      }
+      .nav_a{
+        width: 40%;
+      }
+    }
+    span{
+      width: 375px;
+      h1{
+        width: 375px;
+        font-size: 50px;
+      }
+      h2{
+        font-size: 25px;
+      }
+    }
+  }
+  main{
+    h2{
+      font-size: 30px;
+      text-align: center;
+    }
+    .how_works{
+      @include flexDisplay(flex-start, column);
+      width: 320px;
+      height: 900px;
+      margin: 0 auto;
+      .how_works_content{
+        @include size(340px, 260px);
+        flex-wrap: wrap;
+        margin: 0 auto;
+        .content_left{
+          @include size(320px, 260px);
+          margin: 0 0 10px 0;
+          background-image: url(../assets/img/content_left1.jpeg);
+        }
+        .content_center {
+          background-image: url(../assets/img/content_center1.jpeg);
+        }
+        .content_right {
+          background-image: url(../assets/img/content_right1.jpeg);
+        }
+      }
+    }
+    .meet_partners {
+      margin: 0 auto;
+      .partners_link {
+        width: 340px;
+        flex-wrap: wrap;
+        .partners{
+          width: 300px;
+          height: 310px;
+          .icons1{
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+          }
+        }
+      }
+    }
+    .ideas {
+      @include size(340px, 1150px);
+      text-align: center;
+      .ideas_content {
+        @include size(320px, 470px);
+        flex-direction: column;
+        .containerHover {
+          @include size(300px, 150px);
+          .photo1 {
+            @include size(300px, 140px);
+            background-image: url(../assets/img/games_m.jpeg);
+            margin: 5px;
+          }
+          .photo2 {
+            background-image: url(../assets/img/helth_m.jpeg);
+          }
+          .photo3 {
+              background-image: url(../assets/img/utah-mountain-biking-bike-biking-71104.jpeg);
+            }
+            .photo4 {
+              background-image: url(../assets/img/games2.jpeg);
+            }
+          .photo6 {
+            background-image: url(../assets/img/cult_m.jpeg);
+          }
+        }
+        .containerHover2 {
+          @include size(300px, 150px);
+          .bigger_photo5 {
+            @include size(300px, 140px);
+            margin: 5px;
+          }
+        }
+      }
+    }
+    .form_interests{
+      margin: 50px 10px 0 10px;
+      form{
+          width: 340px;
+          .input{
+              input{
+                  width: 300px;
+                  margin: 10px;
+              }
+              button{
+                  width: 300px;
+                  margin: 0 10px;
+              }
+          }
+      }
+    }
+  }
+  footer{
+    @include size(375px, 210px);
+    @include flexDisplay(space-between, column);
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    aside{
+        @include flexDisplay(space-evenly, row);
+        width: 250px;
+        flex-wrap: wrap;
+        h2{
+            margin: 0 140px;
+        }
+        height: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header {
+    @include size(100%, 540px);
+    background-image: url(../assets/img/header3.jpeg);
+    nav {
+      h3 {
+        color: $buttonColor;
+      }
+      .nav_a {
+        width: 40%;
+      }
+    }
+    span {
+      width: 320px;
+      h1 {
+        width: 320px;
+        font-size: 45px;
+      }
+      h2 {
+        font-size: 20px;
+      }
+    }
+  }
+  main {
+    h2 {
+        font-size: 25px;
+        text-align: center;
+      }
+    .how_works {
+      @include flexDisplay(flex-start, column);
+      width: 300px;
+      height: 830px;
+      margin: 0 auto;
+      .how_works_content {
+        @include size(300px, 240px);
+        flex-wrap: wrap;
+        margin: 0 auto;
+        .content_left {
+          @include size(300px, 240px);
+          margin: 0 0 10px 0;
+          background-image: url(../assets/img/content_left1.jpeg);
+        }
+        .content_center {
+          background-image: url(../assets/img/content_center1.jpeg);
+        }
+        .content_right {
+          background-image: url(../assets/img/content_right1.jpeg);
+        }
+      }
+    }
+    .meet_partners {
+      margin: 0 auto;
+      .partners_link {
+        width: 300px;
+        flex-wrap: wrap;
+      }
+    }
+    .ideas {
+      @include size(300px, 900px);
+      text-align: center;
+      .ideas_content {
+        @include size(300px, 390px);
+        flex-direction: column;
+        .containerHover {
+          height: 130px;
+          .photo1 {
+            @include size(300px, 120px);
+            background-image: url(../assets/img/games_m.jpeg);
+            margin: 5px;
+          }
+          .photo2 {
+            background-image: url(../assets/img/helth_m.jpeg);
+          }
+          .photo3 {
+              background-image: url(../assets/img/utah-mountain-biking-bike-biking-71104.jpeg);
+            }
+            .photo4 {
+              background-image: url(../assets/img/games2.jpeg);
+            }
+          .photo6 {
+            background-image: url(../assets/img/cult_m.jpeg);
+          }
+        }
+        .containerHover2 {
+          height: 130px;
+          .bigger_photo5 {
+            @include size(300px, 120px);
+            margin: 5px;
+          }
+        } 
+      }
+    }
+    .form_interests{
+        margin: 50px 10px 0 10px;
+        form{
+            width: 300px;
+            .input{
+                input{
+                    width: 280px;
+                    margin: 10px;
+                }
+                button{
+                    width: 280px;
+                    margin: 0 10px;
+                }
+            }
+        }
+    }
+  }
+  footer{
+    @include size(320px, 204px);
+    @include flexDisplay(space-between, column);
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    aside{
+        @include flexDisplay(space-evenly, row);
+        width: 250px;
+        flex-wrap: wrap;
+        h2{
+            margin: 0 140px;
+        }
+        height: 100px;
+    }
+  }
+}

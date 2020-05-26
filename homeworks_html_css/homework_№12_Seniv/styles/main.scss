@@ -1,0 +1,14 @@
+@import 'base/base';
+@import 'base/mixins';
+@import 'base/variables';
+@import 'base/fonts';
+
+@import 'components/header';
+@import 'components/main';
+@import 'components/footer';
+
+@import 'components/tabletMedia';
+@import 'components/mobileMedia';
+
+@import 'animations_and_hover/animations';
+@import 'animations_and_hover/hoverEffects';

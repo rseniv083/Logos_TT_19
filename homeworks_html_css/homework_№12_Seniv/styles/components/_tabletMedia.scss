@@ -1,0 +1,65 @@
+@media screen and (max-width: 1024px){
+    header{
+        @include size(1024px, 700px);
+        background-image: url(../assets/img/header2.jpeg);
+        nav{
+            .nav_a{
+                width: 20%;
+            }
+        }
+    }
+    footer{
+        width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    header{
+        @include size(768px, 700px);
+        background-image: url(../assets/img/header2.jpeg);
+        nav{
+            .nav_a{
+                width: 20%;
+            }
+        }
+    }
+    main{
+        .how_works{
+            width: 748px;
+            .how_works_content{
+                @include size(748px, 400px);
+                .content_left{
+                    @include size(236px, 400px);
+                }
+            }
+        }
+        .meet_partners{
+            .partners_link{
+                width: 492px;
+                flex-wrap: wrap;
+                .partners{
+                    @include size(236px, 281px);
+                }
+            }
+        }
+        .ideas{
+            @include size(748px, 1070px);
+            .ideas_content{
+                width: 748px;
+                .photo1{
+                    width: 236px;
+                }
+                .bigger_photo5{
+                    width: 492px;
+                }
+            }
+        }
+    }
+    footer{
+        width: 768px;
+        h1{
+            font-size: 25px;
+        }
+    }
+    
+}
