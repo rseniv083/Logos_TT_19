@@ -28,7 +28,7 @@ accForm.signUp.addEventListener('click', function(){
     if(manOrWoman == 'man'){
         image.style.backgroundImage = 'url(avatar-170-132161.png)';
     }
-    else{
+    if(manOrWoman == ''){
         image.style.backgroundImage = 'url(anonim.png)';
     }
 
