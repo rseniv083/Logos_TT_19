@@ -6,10 +6,10 @@ form.addUser.addEventListener("click", addUser);
 
 const tableBody = document.querySelector("table").tBodies[0];
 
+let index;
+
 //1
 function addUser() {
-  getUser();
-
   tableBody.innerHTML = "";
 
   arrUsers.push(getUser());
@@ -73,6 +73,7 @@ function deleteUser(i) {
 function editUser(i) {
   let userIndex = i;
   let elem = arrUsers[userIndex];
+  index = i;
 
   form.login.value = elem.login;
   form.email.value = elem.email;
@@ -81,14 +82,16 @@ function editUser(i) {
   form.addUser.style.display = "none";
   form.editUser.style.display = "block";
 
-  form.editUser.addEventListener("click", function () {
-    saveEditUser(userIndex);
-  });
 }
 
-function saveEditUser(userIndex) {
-  let user = new getUser();
-  arrUsers[userIndex] = user;
+form.editUser.addEventListener("click", function () {
+  saveEditUser();
+});
+
+function saveEditUser() {
+
+  let user = getUser();
+  arrUsers[index] = user;
 
   tableBody.innerHTML = "";
   form.reset();
