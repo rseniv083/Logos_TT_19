@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="headContainer">
+        <div class="container topContent">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="buttons">
+            <a href="#" class="button edit">Edit</a>
+            <a href="#" class="button style">Style</a>
+        </div>
+        <div class="container">
+            <div class="bttmEditContent">
+                <textarea name="textarea" class="textarea"></textarea>
+                <div class="buttonsBottom">
+                    <a href="#" class="button add">Add</a>
+                    <a href="#" class="button save">Save</a>
+                </div>
+            </div>
+            <div class="bttmStyleContent">
+                <form name="form">
+                    <label for="size"><b>Font size</b></label>
+                    <div>
+                        <input type="radio" name="size" value="12px">12px
+                        <input type="radio" name="size" value="14px">14px
+                        <input type="radio" name="size" value="16px">16px
+                        <input type="radio" name="size" value="18px">18px
+                        <input type="radio" name="size" value="20px">20px
+                    </div>
+
+                    <label for="family"><b>Font family</b></label>
+                    <select name="family">
+                        <option value="" disabled selected>Choose option</option>
+                        <option value="cursive">cursive</option>
+                        <option value="fantasy">fantasy</option>
+                        <option value="monospace">monospace</option>
+                    </select>
+
+                    <label for="color"><b>Colors</b>:</label>
+                    <div>
+                        <button type="button" name="textColor">Text color</button>
+                        <button type="button" name="backgroundColor">Background color</button>
+                    </div>
+
+                    <label for="style"><b>Style:</b></label>
+                    <div>
+                        <input type="checkbox" name="boldStyle" value="bold">Bold text
+                        <input type="checkbox" name="italicStyle" value="italic">Cursive text
+                    </div>
+                </form>
+                <div class="colors"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="headContainer containerTableList">
+        <div class="container chooseCreate">
+            <form name="tableList" class="tableList">
+                <label for="chooseCreate"><b>Choose what you want add:</b></label>
+                <div>
+                    <input type="radio" name="chooseCreate" value="table">Table
+                    <input type="radio" name="chooseCreate" value="list">List
+                </div>
+            </form>
+
+            <form name="tableCreateForm" class="tableForm">
+                <label for="countTR">
+                    Count TR
+                    <input type="text" name="countTR" placeholder="Count TR">
+                </label>
+                <label for="countTD">
+                    Count TD
+                    <input type="text" name="countTD" placeholder="Count TD">
+                </label>
+
+                <h2>Add style to your table:</h2>
+
+                <label for="widthTD">
+                    Width of TD
+                    <input type="text" name="widthTD" placeholder="Width of TD">
+                </label>
+                <label for="heightTD">
+                    Height of TD
+                    <input type="text" name="heightTD" placeholder="Height of TD">
+                </label>
+                <div>
+                    <label for="widthBd">
+                        Width of border
+                        <input type="text" name="widthBd" placeholder="Width of border">
+                    </label>
+                    <label for="typeBd">
+                        Type of border
+                        <select name="typeBd">
+                            <option value="solid">solid</option>
+                            <option value="double">double</option>
+                            <option value="dashed">dashed</option>
+                        </select>
+                    </label>
+                    <label for="colorBd">
+                        Color of border
+                        <select name="colorBd">
+                            <option value="black">black</option>
+                            <option value="red">red</option>
+                            <option value="yellow">yellow</option>
+                            <option value="gray">gray</option>
+                        </select>
+                    </label>
+                </div>
+
+                <a href="#" class="button createTable">Create table</a>
+            </form>
+
+            <form name="createList" class="listForm">
+                <label for="countLi">
+                    Count Li:
+                    <input type="text" name="countLi" placeholder="Count Li">
+                </label>
+                <label for="marksType">
+                    Type of marks:
+                    <select name="marksType">
+                        <option value="circle">circle</option>
+                        <option value="disc">disc</option>
+                        <option value="square">square</option>
+                    </select>
+                </label>
+
+                <a href="#" class="button createList">Create list</a>
+            </form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
