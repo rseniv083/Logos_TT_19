@@ -1,0 +1,39 @@
+img{
+    left: 325px;
+    position: absolute;
+    z-index: 4;
+}
+
+.container {
+    width: 268px;
+    height: 570px;
+    position: absolute;
+    z-index: 1;
+    left: 517px;
+    top: 45px;
+}
+
+.green{
+    background-color: green;
+}
+
+.black{
+    background-color: black;
+    display: none;
+    z-index: 2;
+}
+
+span{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+    left: 610px;
+    top: 240px;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+}
